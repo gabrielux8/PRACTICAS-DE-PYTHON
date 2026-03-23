@@ -29,3 +29,8 @@ print(city)
 # Output: 'New York'
 print(my_dict)
 # Output: {'name': 'Alice', 'age': 30}
+
+dicc = {"Alex1": {"phone": "321-654-9870", "email": "alex1@example.com", "address": "123 King St"}, 
+        "Alex2": {"phone": "987-654-3210", "email": "alex2@example.com", "address": "321 Queen Rd"}}
+
+print(dicc["Alex2"])
